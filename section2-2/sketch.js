@@ -10,13 +10,13 @@ function setup() {
   for(let i = 0; i < 9; i++){
     // 変えるのはここから
     if(i % 3 == 1){
-      strokeWeight(1);
-    }
-    else if (i % 3 == 2){
       strokeWeight(2);
     }
+    else if (i % 3 == 2){
+      strokeWeight(3);
+    }
     else{
-      strokeWeight(3)
+      strokeWeight(1)
     }
     // ここまでの間になります
     let x = i * 10 + 10;
