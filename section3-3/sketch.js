@@ -13,6 +13,7 @@ function setup(){
 
 function draw(){
   background(160, 192, 255);
+  line(0, height/2 + 25, width, height/2 +25);
   ellipse(x, y, 50);
 
   y += vy;
@@ -21,7 +22,7 @@ function draw(){
   else{
     vy += 0;
     y = height/2}
-    
+
   if(keyIsDown(LEFT_ARROW)){ x -= 5; }
   if(keyIsDown(RIGHT_ARROW)){ x += 5; }
   //if(keyIsDown(UP_ARROW)){ y -= 5; }
