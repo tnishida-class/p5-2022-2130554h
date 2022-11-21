@@ -33,8 +33,10 @@ function draw(){
 
 function keyPressed(){
   if(key == " "){
+    if(y == height/2){
   vy = -jump
   }
+}
 }
 
 
