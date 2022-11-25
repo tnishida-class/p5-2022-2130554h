@@ -93,7 +93,7 @@ function gameOver(){
   ny += vny;
   textSize(40);
   fill(255);
-  text("Enterで再スタート",width / 2, height / 2 + 30)
+  text("Enterで再スタート",width / 2, height / 2 + 30);
 }
 
 function gameClear(){
@@ -114,6 +114,7 @@ function keyPressed(){
   if(key == " "){vy = -jump};
   if(key == "Enter"){
     n = 20;
+    ny = 0;
     state = 0;
   }
 }
