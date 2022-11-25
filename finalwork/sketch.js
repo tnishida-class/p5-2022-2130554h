@@ -116,6 +116,10 @@ function keyPressed(){
     n = 20;
     ny = 0;
     state = 0;
+    x = width/2;
+    y = height*6/7;
+    X = width / 2;
+    Y = height / 2;
   }
 }
 
